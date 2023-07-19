@@ -372,8 +372,8 @@
   }
 }
 
-.banner::after,
-.banner__media::after {
+.banner_overlay::after,
+.banner__media_overlay::after {
   content: '';
   position: absolute;
   top: 0;

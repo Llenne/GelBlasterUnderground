@@ -189,7 +189,7 @@
                 }}
               </div>
             {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
+              <span class="h2">GBU</span>
             {%- endif -%}
           </a>
       {%- if request.page_type == 'index' -%}
@@ -322,7 +322,7 @@
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
-            render 'icon-cart-empty'
+            render 'icon-cart'
           else
             render 'icon-cart'
           endif
