@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "heading": "Gel Blaster",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text": {
@@ -86,11 +86,226 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "bb917e39-1bde-4621-9354-b240ec89fbc0": {
+      "type": "image-banner",
+      "settings": {
+        "banner_link": "",
+        "show_overlay": false,
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "a17466a1-0fe3-4c1a-aa89-fcf98bfdb36d": {
+      "type": "rich-text",
+      "blocks": {
+        "0f3ecb83-8cb4-4e25-ba15-9b97842a0c04": {
+          "type": "heading",
+          "settings": {
+            "heading": "Performance Upgrade",
+            "heading_size": "h0"
+          }
+        },
+        "51400a43-38ac-4866-96ae-550836a0c877": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "d6fbe650-2ee9-4ef9-976a-1046b9481d2f": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "0f3ecb83-8cb4-4e25-ba15-9b97842a0c04",
+        "51400a43-38ac-4866-96ae-550836a0c877",
+        "d6fbe650-2ee9-4ef9-976a-1046b9481d2f"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
+    },
+    "ab9b9fa8-6849-4b19-a409-fff53f49c221": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Latest Release",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "f15c9999-443b-4960-8875-27166a63d936": {
+      "type": "image-banner",
+      "settings": {
+        "banner_link": "",
+        "show_overlay": false,
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "b4cf2408-38b6-459f-994c-3e2dbc57c988": {
+      "type": "rich-text",
+      "blocks": {
+        "4177d82c-74b3-4f38-9a2b-6c060c12e6c1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Performance Upgrade",
+            "heading_size": "h0"
+          }
+        },
+        "cce3523c-f29e-4cb7-91eb-780e10615061": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "2965b3d7-ab8a-4190-bc89-de0cebf7433c": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "4177d82c-74b3-4f38-9a2b-6c060c12e6c1",
+        "cce3523c-f29e-4cb7-91eb-780e10615061",
+        "2965b3d7-ab8a-4190-bc89-de0cebf7433c"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
+    },
+    "d0e72d9a-116f-432c-b51a-e6aac0ce1b88": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19952471015697__d0e72d9a-116f-432c-b51a-e6aac0ce1b88-168975202002dca3da-0": {
+          "type": "text",
+          "settings": {
+            "text": "Popular with your order",
+            "text_style": "uppercase"
+          }
+        },
+        "template--19952471015697__d0e72d9a-116f-432c-b51a-e6aac0ce1b88-168975202002dca3da-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--19952471015697__d0e72d9a-116f-432c-b51a-e6aac0ce1b88-168975202002dca3da-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--19952471015697__d0e72d9a-116f-432c-b51a-e6aac0ce1b88-168975202002dca3da-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--19952471015697__d0e72d9a-116f-432c-b51a-e6aac0ce1b88-168975202002dca3da-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--19952471015697__d0e72d9a-116f-432c-b51a-e6aac0ce1b88-168975202002dca3da-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19952471015697__d0e72d9a-116f-432c-b51a-e6aac0ce1b88-168975202002dca3da-0",
+        "template--19952471015697__d0e72d9a-116f-432c-b51a-e6aac0ce1b88-168975202002dca3da-1",
+        "template--19952471015697__d0e72d9a-116f-432c-b51a-e6aac0ce1b88-168975202002dca3da-2",
+        "template--19952471015697__d0e72d9a-116f-432c-b51a-e6aac0ce1b88-168975202002dca3da-3",
+        "template--19952471015697__d0e72d9a-116f-432c-b51a-e6aac0ce1b88-168975202002dca3da-4",
+        "template--19952471015697__d0e72d9a-116f-432c-b51a-e6aac0ce1b88-168975202002dca3da-5"
+      ],
+      "settings": {
+        "product": "",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
-    "featured_collection"
+    "featured_collection",
+    "bb917e39-1bde-4621-9354-b240ec89fbc0",
+    "a17466a1-0fe3-4c1a-aa89-fcf98bfdb36d",
+    "ab9b9fa8-6849-4b19-a409-fff53f49c221",
+    "f15c9999-443b-4960-8875-27166a63d936",
+    "b4cf2408-38b6-459f-994c-3e2dbc57c988",
+    "d0e72d9a-116f-432c-b51a-e6aac0ce1b88"
   ]
 }
