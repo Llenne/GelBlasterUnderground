@@ -2,9 +2,28 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "5b24c422-77a5-40b0-8496-5ea824090407": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Lleanne1006_image_banner_layout_soldier_with_gun_in_action_8K_269344f9-062d-4ca7-8a69-2ccdcc449aa7.png",
+        "banner_link": "",
+        "show_overlay": false,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "form": {
@@ -20,6 +39,7 @@
   },
   "order": [
     "main",
+    "5b24c422-77a5-40b0-8496-5ea824090407",
     "form"
   ]
 }
