@@ -2400,7 +2400,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
   .header--middle-left {
     grid-template-areas: 'heading navigation icons';
-    grid-template-columns: auto auto 1fr;
+    grid-template-columns: auto 1fr auto;
     column-gap: 2rem;
   }
 
@@ -2775,6 +2775,8 @@ details[open] > .header__submenu {
 @media screen and (min-width: 990px) {
   .header__inline-menu {
     display: block;
+    width: 100%;
+    margin: auto;
   }
 
   .header--top-center .header__inline-menu {
