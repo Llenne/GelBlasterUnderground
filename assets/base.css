@@ -2829,7 +2829,6 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   color: #C0392B;
-  text-underline-offset: 0.3rem;
 }
 
 .header__menu-item:hover .header__active-menu-item {
