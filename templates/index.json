@@ -4,6 +4,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/01.jpg",
+        "image_2": "shopify:\/\/shop_images\/01_0d85a490-5f34-4a4b-b31c-4cee0479c943.jpg",
         "banner_link": "",
         "show_overlay": false,
         "image_overlay_opacity": 40,
