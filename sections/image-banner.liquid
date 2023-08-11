@@ -81,7 +81,7 @@
     </div>
   {%- endif -%}
   {%- if section.settings.image_2 != blank -%}
-    <div class="large-up-hide medium-hide media">
+    <div class="large-up-hide medium-hide media banner__media">
       {%- liquid
         assign image_height_2 = section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio
         if section.settings.image != blank
@@ -100,7 +100,11 @@
         | image_url: width: 1024
         | image_tag:
           loading: 'lazy',
-          class: image_class_2
+          width: section.settings.image.width,
+          height: image_height,
+          class: image_class_2,
+          sizes: sizes,
+          widths: widths
       }}
     </div>
   {%- endif -%}
