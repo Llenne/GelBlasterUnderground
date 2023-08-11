@@ -93,6 +93,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/02.jpg",
+        "image_2": "shopify:\/\/shop_images\/02_c681f126-51bb-4a52-84f1-f8e0f4043251.jpg",
         "banner_link": "",
         "show_overlay": false,
         "image_overlay_opacity": 40,
@@ -181,6 +182,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/03a.jpg",
+        "image_2": "shopify:\/\/shop_images\/03.jpg",
         "banner_link": "",
         "show_overlay": false,
         "image_overlay_opacity": 40,
