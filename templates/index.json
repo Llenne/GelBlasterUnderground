@@ -276,7 +276,7 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52,
-        "input_padding": "10px 15px 10px 15px",
+        "input_padding": "20px 15px 20px 15px",
         "button_background_color": "#c0392b",
         "button_text_color": "#ffffff",
         "button_padding": "15px 15px 15px 15px"
