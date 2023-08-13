@@ -258,7 +258,7 @@
         "template--19952471015697__b1202384-ff2c-4936-b82a-ef5e370af4c4-1689752079ff4709f5-2": {
           "type": "email_form",
           "settings": {
-            "show_arrow_icon": true,
+            "show_arrow_icon": false,
             "button_text": "SAVE 5% OFF"
           }
         }
@@ -278,7 +278,7 @@
         "padding_bottom": 52,
         "input_padding": "10px 15px 10px 15px",
         "button_background_color": "#c0392b",
-        "button_text_color": "#fff",
+        "button_text_color": "#ffffff",
         "button_padding": "15px 15px 15px 15px"
       }
     }
