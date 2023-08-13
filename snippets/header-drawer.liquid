@@ -29,6 +29,17 @@
                         id="HeaderDrawer-{{ link.handle }}"
                         class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}"
                       >
+                        {% liquid
+                        assign collection_handle = link.handle 
+                        assign collection = collections[collection_handle]
+                        %}
+                        {% if collection.image.src %}
+                          {{
+                            collection.image.src
+                            | image_url: width: 110
+                            | image_tag: class: 'menu-drawer__thumbnail', loading: 'lazy'
+                          }}
+                        {% endif %}   
                         {{ link.title | escape }}
                         {% render 'icon-arrow' %}
                         {% render 'icon-caret' %}
