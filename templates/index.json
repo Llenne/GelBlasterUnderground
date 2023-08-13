@@ -266,6 +266,9 @@
         "template--19952471015697__b1202384-ff2c-4936-b82a-ef5e370af4c4-1689752079ff4709f5-1",
         "template--19952471015697__b1202384-ff2c-4936-b82a-ef5e370af4c4-1689752079ff4709f5-2"
       ],
+      "custom_css": [
+        ".newsletter__subheading {margin-top: 0; color: #c0392b;}"
+      ],
       "settings": {
         "color_scheme": "accent-1",
         "full_width": true,
