@@ -508,7 +508,7 @@
             
             {%- when 'guarantee' -%}
               <div class="guarantee_icon">
-                {% if block.settings.guarantee_icon != blank %}{{ block.settings.guarantee_icon | image_url: '758x' | image_tag: class: "guarantee_icon_image", loading: "lazy" }}{% endif %}
+                {% if block.settings.guarantee_image != blank %}{{ block.settings.guarantee_image | image_url: '758x' | image_tag: class: "guarantee_icon_image", loading: "lazy" }}{% endif %}
               </div>
           {%- endcase -%}
         {%- endfor -%}
