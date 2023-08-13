@@ -2,6 +2,87 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "08a1055d-760b-4ca8-b857-4feee1c42102": {
+      "type": "multicolumn",
+      "blocks": {
+        "sections--19952470327569__08a1055d-760b-4ca8-b857-4feee1c42102-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/premium.svg",
+            "title": "#1 Premium",
+            "text": "<p>Gel Blaster Store<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "sections--19952470327569__08a1055d-760b-4ca8-b857-4feee1c42102-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/worldwide.svg",
+            "title": "Largest Range",
+            "text": "<p>Parts & Gel Blasters<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "sections--19952470327569__08a1055d-760b-4ca8-b857-4feee1c42102-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feedback.svg",
+            "title": "Over 20,000+",
+            "text": "<p>Customers<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b3b1b127-70dd-4752-bf62-4153bf7caa67": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fast-delivery.svg",
+            "title": "Fast & Free",
+            "text": "<p>NZ Shipping<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d435bdc1-f607-4205-9370-237cc25d58bb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/online-chat.svg",
+            "title": "Get Support",
+            "text": "<p>Instant Live Chat<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "sections--19952470327569__08a1055d-760b-4ca8-b857-4feee1c42102-column-2",
+        "sections--19952470327569__08a1055d-760b-4ca8-b857-4feee1c42102-column-1",
+        "sections--19952470327569__08a1055d-760b-4ca8-b857-4feee1c42102-column-3",
+        "b3b1b127-70dd-4752-bf62-4153bf7caa67",
+        "d435bdc1-f607-4205-9370-237cc25d58bb"
+      ],
+      "custom_css": [
+        ".title.inline-richtext {text-align: center; display: block; width: 100%;}"
+      ],
+      "settings": {
+        "title": "Why Gel Blaster Underground?",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -49,6 +130,7 @@
     }
   },
   "order": [
+    "08a1055d-760b-4ca8-b857-4feee1c42102",
     "footer"
   ]
 }
