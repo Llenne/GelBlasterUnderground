@@ -127,7 +127,6 @@
                         aria-current="page"
                       {% endif %}
                     >
-                      {{ link.title | escape }}
                       {% liquid
                       assign collection_handle = link.handle 
                       assign collection = collections[collection_handle]
@@ -139,6 +138,7 @@
                           | image_tag: class: 'menu-drawer__thumbnail', loading: 'lazy'
                         }}
                       {% endif %}   
+                      {{ link.title | escape }}
                     </a>
                   {%- endif -%}
                 </li>
