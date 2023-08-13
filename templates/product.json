@@ -91,6 +91,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "43b9e327-313b-4ff7-a8a8-95ebfd8a0039": {
+          "type": "guarantee",
+          "settings": {
+            "guarantee_image": "shopify:\/\/shop_images\/GBU_quality_approved_1.webp"
+          }
         }
       },
       "block_order": [
@@ -106,7 +112,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "43b9e327-313b-4ff7-a8a8-95ebfd8a0039"
       ],
       "settings": {
         "enable_sticky_info": true,
