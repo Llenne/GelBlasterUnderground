@@ -65,7 +65,7 @@
       ],
       "custom_css": [
         ".title.inline-richtext {text-align: center; display: block; width: 100%;}",
-        "..multicolumn-list__item .media img{max-width: 80%;}"
+        ".multicolumn-list__item .media img {max-width: 60%; max-height: 60%; object-fit: cover;}"
       ],
       "settings": {
         "title": "Why Gel Blaster Underground?",
