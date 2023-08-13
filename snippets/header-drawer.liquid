@@ -127,19 +127,18 @@
                         aria-current="page"
                       {% endif %}
                     >
-                    
-                        {% liquid
-                        assign collection_handle = link.handle 
-                        assign collection = collections[collection_handle]
-                        %}
-                        {% if collection.image.src %}
-                          {{
-                            collection.image.src
-                            | image_url: width: 110
-                            | image_tag: class: 'menu-drawer__thumbnail', loading: 'lazy'
-                          }}
-                        {% endif %}   
                       {{ link.title | escape }}
+                      {% liquid
+                      assign collection_handle = link.handle 
+                      assign collection = collections[collection_handle]
+                      %}
+                      {% if collection.image.src %}
+                        {{
+                          collection.image.src
+                          | image_url: width: 110
+                          | image_tag: class: 'menu-drawer__thumbnail', loading: 'lazy'
+                        }}
+                      {% endif %}   
                     </a>
                   {%- endif -%}
                 </li>
