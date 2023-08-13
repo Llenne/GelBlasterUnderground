@@ -258,6 +258,8 @@
         "template--19952471015697__b1202384-ff2c-4936-b82a-ef5e370af4c4-1689752079ff4709f5-2": {
           "type": "email_form",
           "settings": {
+            "show_arrow_icon": true,
+            "button_text": "SAVE 5% OFF"
           }
         }
       },
@@ -273,7 +275,11 @@
         "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "input_padding": "10px 15px 10px 15px",
+        "button_background_color": "#c0392b",
+        "button_text_color": "#fff",
+        "button_padding": "15px 15px 15px 15px"
       }
     }
   },
