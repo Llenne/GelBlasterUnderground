@@ -13,6 +13,14 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  .newsletter .field__input{
+    padding: {{ section.settings.input_padding }};
+  }
+  .newsletter-form__button{
+    background-color: {{ section.settings.button_background_color }};
+    color: {{ section.settings.button_text_color }};
+    padding: {{ section.settings.button_padding }};
+  }
 {%- endstyle -%}
 
 <div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
@@ -85,7 +93,8 @@
                     id="Subscribe"
                     aria-label="{{ 'newsletter.button_label' | t }}"
                   >
-                    {% render 'icon-arrow' %}
+                    {% if block.settings.button_text != blank %}{{ block.settings.button_text }}{% endif %}
+                    {% if block.settings.show_arrow_icon %}{% render 'icon-arrow' %}{% endif %}
                   </button>
                 </div>
                 {%- if form.errors -%}
@@ -162,6 +171,28 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 52
+    },
+    {
+      "type": "text",
+      "id": "input_padding",
+      "label": "Email Input Padding",
+      "default": "10px 15px 10px 15px"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Button Background Color"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text Color"
+    },
+    {
+      "type": "text",
+      "id": "button_padding",
+      "label": "Email Button Padding",
+      "default": "15px 15px 15px 15px"
     }
   ],
   "blocks": [
@@ -214,7 +245,20 @@
     {
       "type": "email_form",
       "name": "t:sections.newsletter.blocks.email_form.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_arrow_icon",
+          "default": true,
+          "label": "Show Arrow Icon?"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text"
+        }
+      ]
     },
     {
       "type": "@app"
