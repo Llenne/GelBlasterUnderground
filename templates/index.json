@@ -272,6 +272,7 @@
         ".newsletter__subheading {margin-top: 0; color: #ff3300;}"
       ],
       "settings": {
+        "section_background_image": "shopify:\/\/shop_images\/Image_from_iOS_5.png",
         "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
