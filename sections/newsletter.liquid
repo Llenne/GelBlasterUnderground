@@ -15,7 +15,7 @@
   }
   {% if section.settings.section_background_image != blank %}
     .section-background{
-      bakcground: url({{ section.settings.section_background_image }});
+      bakcground: url({{ section.settings.section_background_image | image_url }});
       background-size: contain;
       background-position: center;
     }
