@@ -13,6 +13,13 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  {% if section.settings.section_background_image != blank %}
+    .section-background{
+      bakcground: url({{ section.settings.section_background_image }});
+      background-size: contain;
+      background-position: center;
+    }
+  {% endif %}}
   .newsletter .field__input{
     padding: {{ section.settings.input_padding }};
     height: auto;
@@ -32,7 +39,7 @@
 {%- endstyle -%}
 
 <div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
-  <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+  <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} {% if section.settings.section_background_image != blank %}section-background{% endif %} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
@@ -140,6 +147,11 @@
     "groups": ["header"]
   },
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "section_background_image",
+      "label": "Section Background Image"
+    },
     {
       "type": "color_scheme",
       "id": "color_scheme",
