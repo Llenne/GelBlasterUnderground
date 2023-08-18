@@ -88,6 +88,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "68d77060-13b6-4348-bdd2-4444c4a30881": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/364225366_855702612809487_8559417823000768275_n.jpg",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -98,22 +106,15 @@
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
+            "heading": "Support",
             "menu": "footer"
-          }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
         }
       },
       "block_order": [
+        "68d77060-13b6-4348-bdd2-4444c4a30881",
         "footer-0",
-        "footer-1",
-        "footer-2"
+        "footer-1"
       ],
       "settings": {
         "color_scheme": "accent-1",
