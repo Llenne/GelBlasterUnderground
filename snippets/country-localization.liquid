@@ -13,9 +13,8 @@
     aria-controls="{{ localPosition }}List"
     aria-describedby="{{ localPosition }}Label"
   >
-    <span>
-      {{- localization.country.currency.iso_code }}
-      {{ localization.country.currency.symbol }} | {{ localization.country.name -}}
+    <span class="currency_box">
+    {{- localization.country.currency.iso_code }} <img class="currency_flag" height="28" width="28" loading="lazy" src="{{ 'flag-' | append: localization.country.currency.iso_code | downcase | append:'.avif' | file_url }}" alt="{{ localization.country.currency.iso_code }} Flag">
     </span>
     {% render 'icon-caret' %}
   </button>
