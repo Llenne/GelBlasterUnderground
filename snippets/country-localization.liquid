@@ -4,22 +4,6 @@
   Accepts:
     - localPosition: pass in the position in which the form is coming up to create specific IDs
 {%- endcomment -%}
-{% style %}
-  .currency_box {
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-    letter-spacing: 0px;
-    line-height: 0px;
-  }
-  .currency_flag {
-    padding: 2px;
-    border: 1px solid black;
-    border-radius: 80px;
-    width: 28px;
-    margin-left: 7px;
-  }
-{% endstyle %}
 
 <div class="disclosure">
   <button
@@ -29,8 +13,9 @@
     aria-controls="{{ localPosition }}List"
     aria-describedby="{{ localPosition }}Label"
   >
-    <span class="currency_box">
-    {{- localization.country.currency.iso_code }} <img class="currency_flag" height="28" width="28" loading="lazy" src="{{ 'flag-' | append: localization.country.currency.iso_code | downcase | append:'.png' | file_url }}" alt="{{ localization.country.currency.iso_code }} Flag">
+    <span>
+      {{- localization.country.currency.iso_code }}
+      {{ localization.country.currency.symbol }} | {{ localization.country.name -}}
     </span>
     {% render 'icon-caret' %}
   </button>
